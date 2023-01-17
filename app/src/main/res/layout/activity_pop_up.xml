@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#75A839"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/manual"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:fontFamily="@font/cormorant_infant_light"
+        android:gravity="center"
+        android:text="Manual guide"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/helping"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cormorant_infant_light"
+        android:gravity="center"
+        android:layout_marginTop="-10dp"
+        android:text="Welcome to business card maker! This app is very easy to use! All you need to do is to list down your name, your company's name, email, number, and location. Once that's done with, just press on results and it will be created!."
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+</LinearLayout>
